@@ -51,13 +51,19 @@ body{
 #next{
   right: 20%;
 }
+.slayer{
+  display: none;
+}
 
 @media (max-width: 600px) {
   body{
     max-height: 100vh;
     overflow: hidden;
   }
-  .main{
+  .image-container{
+    display: none;
+  }
+  .btn-container{
     display: none;
   }
   .slayer{
